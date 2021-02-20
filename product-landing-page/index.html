@@ -1,0 +1,105 @@
+<html lang="en" dir="ltr">
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <header id="header">
+      <nav id="nav-bar">
+        <a href="#"><img id="header-img" src="https://assets.stickpng.com/images/580b585b2edbce24c47b2488.png" alt="Wifi Logo"></a>
+        <a href="#"><h1 id="company-name">Wifi</h1></a>
+        <a id="main-link" class="nav-link" href="#section-title-1">Features</a>
+        <a id="main-link" class="nav-link" href="#holder">Video</a>
+        <a id="main-link" class="nav-link" href="#price-section">Pricing</a>
+      </nav>
+    </header>
+
+    <div class="title">
+      <h1 id="home-title">WiFi: The Fastest Way of Communicating!</h1>
+      <a href="#section-title-1"><button id="learn-more" type="button" name="button">Learn More</button></a>
+    </div>
+
+    <h2 id="section-title-1" class="section-title">Features</h2>
+
+    <div id="section-id" class="features">
+
+      <div id="features-section">
+        <p id="info-title">Fast</p>
+        <p id="info">Able to reach over 100mb/s a second.</p>
+        <i id="icon" class="fas fa-tachometer-alt"></i>
+      </div>
+
+      <div id="features-section">
+        <p id="info-title">Secure</p>
+        <p id="info">With WPA2 security, your connection is secure.</p>
+        <i id="icon" class="fas fa-lock"></i>
+      </div>
+
+      <div id="features-section">
+        <p id="info-title">Simple</p>
+        <p id="info">Wireless pairing makes it easy to connect your device.</p>
+        <i id="icon" class="fas fa-thumbs-up"></i>
+      </div>
+            <div id="holder"></div>
+    </div>
+
+    <div id="video-area">
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/METB1o4UAT8"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+          gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <h2 class="section-title">Pricing</h2>
+    <div class="prices">
+      <div id="price-section">
+        <p id="plan-title">Basic</p>
+        <p>Free</p>
+        <ul>
+          <li>Unlimited Data</li>
+          <li>20mb/s Download Speed</li>
+          <li>10mb/s Upload Speed</li>
+        </ul>
+        <button id="purchase-button" type="submit" name="button">Purchase</button>
+      </div>
+
+      <div id="price-section">
+        <p id="plan-title">Premium</p>
+        <p>$30/month</p>
+        <ul>
+          <li>Unlimited Data</li>
+          <li>50mb/s Download Speed</li>
+          <li>15mb/s Upload Speed</li>
+        </ul>
+        <button id="purchase-button" type="submit" name="button">Purchase</button>
+      </div>
+
+      <div id="price-section">
+        <p id="plan-title">V.I.P.</p>
+        <p>$50/month</p>
+        <ul>
+          <li>Unlimited Data</li>
+          <li>100mb/s Download Speed</li>
+          <li>20mb/s Upload Speed</li>
+        </ul>
+        <button id="purchase-button" type="submit" name="button">Purchase</button>
+      </div>
+    </div>
+
+    <div id="newsletter-id" class="newsletter">
+      <h2 id="sign-up-text">Sign up for our newsletter!</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input id="email" name="email" type="email" placeholder="Enter email...">
+        <input id="submit" type="submit" value="Sign Up">
+      </form>
+    </div>
+    <footer>&copy Wifi 2020</footer>
+
+  </body>
+</html>
+
